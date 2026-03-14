@@ -1,55 +1,110 @@
 body{
+
 font-family: Arial;
 text-align:center;
-background:#f5f5f5;
+background:#f4f6f9;
 margin:40px;
+
+}
+
+h1{
+
+color:#2c3e50;
+
 }
 
 .container{
+
 background:white;
 padding:20px;
 border-radius:10px;
-width:350px;
+width:400px;
 margin:auto;
-box-shadow:0 0 10px rgba(0,0,0,0.2);
+box-shadow:0 0 15px rgba(0,0,0,0.2);
+
 }
 
 input{
-width:80%;
+
+width:85%;
 padding:10px;
 margin:10px;
+
 }
 
 button{
+
 padding:10px 15px;
 margin:5px;
 border:none;
 background:#4CAF50;
 color:white;
-cursor:pointer;
 border-radius:5px;
+cursor:pointer;
+
 }
 
 button:hover{
+
 background:#388E3C;
+
 }
 
 #result{
-margin-top:20px;
+
+margin-top:15px;
 font-size:18px;
+
+}
+
+#weeklyPlan{
+
+margin-top:20px;
+
+}
+
+#progressPercent{
+
+font-size:22px;
+font-weight:bold;
+color:#27ae60;
+margin-top:10px;
+
 }
 
 #timer{
+
 font-size:40px;
 margin:20px;
 font-weight:bold;
+
 }
 
 .dark{
+
 background:#121212;
 color:white;
+
 }
 
 .dark .container{
+
 background:#1e1e1e;
+
+}
+
+@media (max-width:600px){
+
+.container{
+
+width:90%;
+
+}
+
+input{
+
+width:90%;
+
+}
+
 }
