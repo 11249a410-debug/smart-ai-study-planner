@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SMART AI STUDY PLANNER</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+</html>
+
+<body >
+  <h1>Smart ai study planner</h1>
+  <button onclick="toggleDark()">Toggle Dark</button>
+  <div class ="contianer">
+    <h2>Enter study details</h2>
+
+    <label>Subjects(comma seperated)</label>
+    <input id="subject" placeholder="Math, Physics, Programming">
+
+    <label>study hours per day</label>
+    <input id="hours" type="number">
+
+    <button onclick="generatePlan()">Generate study plan</button>
+
+    <h2 >Your study plan</h2>
+    <div id="result"></div>
+
+    <h2>Mark Progress</h2>
+    <ul id="progresslist"></ul>
+  </div>
+  <hr>
+
+<h2>Pomodoro Study Timer</h2>
+
+<div id="timer">25:00</div>
+
+<button onclick="startTimer()">Start</button>
+<button onclick="pauseTimer()">Pause</button>
+<button onclick="resetTimer()">Reset</button>
+
+<script src="script.js"></script>
+</body>
